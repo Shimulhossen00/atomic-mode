@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+     background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
+  background-size: 400% 400%;
+  animation: premiumBG 10s ease infinite;
+}
+@keyframes premiumBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+table{
+    width: 90%;
+    left: 15%;
+    display: block;
+    position: relative;
+    
+    
+}
+.electron{
+    color: red;
+    
+    
+}
+.molname{
+    color: rgb(238, 237, 251);
+    font-size: 15px;
+}
+.name{
+    color: rgb(252, 248, 255);
+    font-size: 10px;
+}
+.mass{
+    color: rgb(247, 255, 251);
+}
+table div{
+    background: rgb(32, 83, 83);
+    height: 75px;
+    transition: .4;
+    border-radius: 8px;
+   
+    
+}
+.electron, .mass, .molname, .name{
+    margin: 0px;
+    padding: 1px;
+}
+.onlynum{
+    color: rgb(255, 162, 162);
+}
+table div:hover{
+    background: rgb(99, 99, 237);
+    
+}
+.head{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: +1;
+    justify-content: space-between;
+    background: rgb(255, 5, 5);
+    display: none;
+}
+table .th{
+    color: white;
+}
+.head div{
+    display: flex;
+    justify-content: space-around;
+}
+.head .stp p{
+    position: relative;
+    padding: 3px;
+}
+/* alkali */
+
+.li,.na,.k,.rb,.cs,.fr{
+    background: #6c3b01;
+}
+/* alkaline */
+
+.be,.mg,.ca,.sr,.ba,.ra{
+
+    background: #846011;
+
+}
+/* lanthanoids 
+
+.la,.ce,.pr,.nd,.pm,.sm,.eu,.gd,.tb,.dy,.ho,.er,.tm,.yb,.lu{
+    background: #402c17;
+}
+
+*/
+
+/* transition metals */
+
+.sc,.titanium,.v,.cr,.mn,.fe,.co,.ni,.cu,.zn,.y,.zr,.nb,.mo,.tc,.ru,.rh,.pd,.ag,.cd,.hf,.ta,.w,.re,.os,.ir,.pt,.au,.hg,.rf,.db,.sg,.bh,.hs{
+
+    background: #711019;
+}
+
+/* post transition metals */
+
+.al,.ga,.in,.sn,.ti,.pb,.bi,.po{
+
+    background: #003666;
+}
+
+/*  metalloids */
+
+.b,.si,.ge,.as,.sb,.te,.at{
+
+    background: #015146;
+}
+
+/*  reactive non metals */
+
+.c,.n,.o,.f,.p,.s,.cl,.se,.br,.i,.h{
+
+    background: #3e6418;
+}
+
+/*  noble gasses */
+
+.he,.ne,.ar,.kr,.xe,.rn{
+
+    background: #3a2151;
+}
+
+.h,.be,.mg{
+    width: 50px;
+
+}
+.soliddetecrbox p{
+    color: white;
+    margin-left: 5px;
+}
+.soliddetecrbox div{
+    background: #711019;
+    position: relative;
+    width: 30%;
+    left: 35%;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.soliddetecrbox div:hover{
+    background-color: rgb(48, 48, 166);
+}
+.soliddetecrbox{
+    width: 120px;
+    text-align: center;
+    background: rgb(1, 1, 1);
+    box-shadow: 2px 2px 3px #3a2151;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    display: block;
+    display: none;
+    position: absolute;
+}
+.soliddetecrbox .s_titie{
+    background: rgb(255, 255, 255);
+    color: rgb(113, 21, 179);
+    margin-left: 10px;
+    border-radius: 3px;
+    padding: 2px;
+    
+   
+}
